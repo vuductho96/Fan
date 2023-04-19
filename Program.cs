@@ -58,13 +58,13 @@ namespace Fan
 
         public override string ToString() // Changed the return type to string
         {
-            if (isOn)
+           if (isOn)
             {
-                return $"Fan is on, color: {color}, radius: {radius}, speed: {speed}";
+                return $"Fan is on, speed: {speed} color: {color}, radius: {radius}";
             }
             else
             {
-                return $"Fan is off, color: {color}, radius: {radius}, speed: {speed}";
+                return $"Fan is off, speed: {speed} color: {color}, radius: {radius}";
             }
         }
     }
